@@ -77,3 +77,23 @@ transform: scale(1.02);
 .card-border{
     border: 0;
 }
+
+.anim-img{
+    transition: all .2s ease-in-out;
+}
+.anim-img:hover{
+transform: scale(1.02);
+
+}
+
+.card-shadow{
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.blur-bg{
+       backdrop-filter: blur(5px) saturate(109%);
+    -webkit-backdrop-filter: blur(5px) saturate(109%);
+    background-color: rgba(255, 255, 255, 0.11);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}

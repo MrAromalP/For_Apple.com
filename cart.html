@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <!-- bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- font-awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom style -->
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body style="width: 100vw; height: 100vh;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary " id="home">
+        <div class="container d-flex w-100">
+
+
+
+            <a class="navbar-brand me-auto" href="#">
+                <i class="fa-brands fa-apple fa-2x" style="color: #000000;"></i>
+            </a>
+            <div class="ms-auto">
+                <div class="offcanvas offcanvas-end blur-bg" tabindex="-1" id="navbarOffcanvasLg"
+                    aria-labelledby="navbarOffcanvasLgLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link " href="./home.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="./home.html#store">Store</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#">Account</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <form class="d-flex ms-auto mx-3 " action="./home.html#store" role="search"
+                style="max-width: 50%; min-width: 20%;">
+
+                <input class="form-control rounded-5 me-2 " type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn  rounded-5" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+
+
+
+            <div><a href="./cart.html"><i class="fa-solid fa-cart-shopping fa-xl position-relative " style="color: #000000;"> <span
+                            class="position-absolute bottom-0 start-100 translate-middle badge rounded-pill text-bg-danger "
+                            style="font-size: xx-small;">9 <span class="visually-hidden">unread messages</span></span>
+                    </i></a></div>
+
+
+            <button class="navbar-toggler mx-2 " type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+                <i class="fa-solid fa-sliders" style="color: #000000;"></i>
+            </button>
+
+        </div>
+    </nav>
+
+    <div class="fs-1 fw-semibold text-center mt-5">Your bag total is ₹124900.00 or ₹46958.00/mo</div>
+    <div class="text-center mt-4"><button class="btn btn-primary px-5">check out</button></div>
+
+
+    <div class="container d-flex justify-content-center ">
+        <div class="w-100">
+
+            <hr class="my-5">
+
+            <div class="row">
+
+                <div class="col-md-4 ">
+                    <img src="./assets/image/iphone16pro-full.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-7 row d-flex justify-content-between mt-4">
+
+                    <div class="col-md-6">
+                        <div class="fs-4 fw-semibold">Magic Keyboard Folio for iPad (A16) - US English</div>
+                        <div class="my-3">
+                            <p>Pay 15.99% p.a. Per Annumfor 6 months</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 row">
+                        <div class="col-md-6 ">
+                            <div class="dropdown mb-2">
+                                <button class="btn btn-secondary dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    1
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">1</a></li>
+                                    <li><a class="dropdown-item" href="#">2</a></li>
+                                    <li><a class="dropdown-item" href="#">3+</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div>
+                                <p class="fs-4 fw-semibold">₹24900.00 </p>
+                                <div class="text-end fs-6">
+                                    <p>₹4346.00/mo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <hr>
+                    <div><span class="fw-semibold fs-5 mx-3 mb-5">Find out how soon you can get this item.</span><a
+                            href="">Enter Pincode ></a>
+                        <div class="ms-3"><span>In stock and ready to ship.</span></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <hr class="my-5">
+
+<div class="d-flex justify-content-between">
+    <div><span class="fs-5 fw-semibold">Bag Subtotal</span></div>
+    <div><span class="fs-5 fw-semibold">₹124900.00</span></div>
+</div>
+<div class="d-flex justify-content-between">
+    <div><span class="fs-5 fw-semibold">Shipping</span></div>
+    <div><span class="fs-5 fw-semibold">FREE</span></div>
+</div>
+<hr class="my-3">
+
+<div class="d-flex justify-content-between">
+    <div><span class="fs-4 fw-bold">Total</span></div>
+    <div><span class="fs-4 fw-bold">₹124900.00</span></div>
+</div>
+<div class="d-flex justify-content-between">
+    <div><span class="fs-5 fw-semibold">Monthly payment</span></div>
+    <div><span class="fs-5 fw-semibold">₹4695.00/mo.per mont* with EMI</span></div>
+</div>
+
+<div class="text-end my-5"><button class="btn btn-primary px-5">check out</button></div>
+        </div>
+        <div class="my-5"><hr></div>
+
+    </div>
+    </div>
+
+<footer class="p-5 bg-body-tertiary text-center d-flex justify-content-center align-items-center"
+        style="height: 200px;"> Copyright © 2025 for_Apple. All rights reserved.</footer>
+
+
+</body>
+
+</html>
